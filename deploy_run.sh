@@ -1,0 +1,1 @@
+docker-compose exec prefect-worker prefect deployment build /app/flows/data_transfer_flow.py:transfer_data -n data-transfer-deployment -p new-workerpool
